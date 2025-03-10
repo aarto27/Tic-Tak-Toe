@@ -1,0 +1,41 @@
+.carousel{
+    width: 90%;
+    margin: 100px auto;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+}
+
+.box div{
+    width: 150px;
+    height: 150px;
+    font-size: 130px;
+    text-align: center;
+    line-height: 150px;
+
+}
+
+#second{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+ 
+#four{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#five{
+    border: 2px solid black;
+}
+
+#six{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#eight{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
